@@ -1,6 +1,6 @@
 {
   "name": "nestjs-simple-auth-typeorm",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "TypeORM Adapter for NestJS Simple Auth",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,17 +12,18 @@
   "author": "Kurien Zacharia",
   "license": "MIT",
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "nestjs-simple-auth": "../nestjs-simple-auth/nestjs-simple-auth-v0.0.5.tgz"
+    "bcrypt": "^5.0.1"
   },
   "peerDependencies": {
     "@nestjs/common": "^8.0.0",
     "@nestjs/typeorm": "^8.0.4",
+    "nestjs-simple-auth": "^0.0.6",
     "typeorm": "0.2"
   },
   "devDependencies": {
     "@nestjs/common": "^8.0.0",
     "@nestjs/typeorm": "^8.0.4",
+    "nestjs-simple-auth": "^0.0.6",
     "rimraf": "^3.0.2",
     "typeorm": "0.2",
     "typescript": "^4.3.5"

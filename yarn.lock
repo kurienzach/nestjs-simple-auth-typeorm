@@ -533,9 +533,10 @@ mz@^2.4.0:
     object-assign "^4.0.1"
     thenify-all "^1.0.0"
 
-nestjs-simple-auth@../nestjs-simple-auth/nestjs-simple-auth-v0.0.5.tgz:
-  version "0.0.5"
-  resolved "../nestjs-simple-auth/nestjs-simple-auth-v0.0.5.tgz#a5b814cb5d7487b5fadea23c6a49b7642713e2b8"
+nestjs-simple-auth@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/nestjs-simple-auth/-/nestjs-simple-auth-0.0.6.tgz#e90e349f0b2338d36e94e25976aa1770898cdd54"
+  integrity sha512-D6L0jATprjHno1mXKXlBAi6kQidOyY/9m3GANt1hX8/ds3xN0wE46yqfKT4R6eiLb1dmlSheg9GVAiHt2vLJKQ==
   dependencies:
     "@nestjs/passport" "^8.2.1"
     "@types/jsonwebtoken" "^8.5.8"
